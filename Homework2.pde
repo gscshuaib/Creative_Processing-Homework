@@ -1,6 +1,6 @@
 void setup() 
 { 
-  size(800, 600); 
+  size(800, 600);    
   noFill(); 
   stroke(120); 
   background(0);
@@ -14,7 +14,7 @@ void draw()
   background(0); 
   for(int i=0; i<height; i+=ystep) { 
     for(int j=0; j<width; j+=xstep) { 
-      int r = int(random(3)); 
+      int r = int(random(3));                 //随机绘制由3个pattern函数绘制的图形
       if(r == 0) 
       { 
         pattern0(j, i); 
@@ -30,6 +30,8 @@ void draw()
     } 
   } 
 } 
+//pattern0与pattern1绘制由两个半径不同的半圆和一个1/4圆构成的图形
+//pattern2绘制由椭圆和一个圆形构成的图形
 void pattern0(int xc,int yc)
 {
   arc(xc+60,yc+60,120,120,HALF_PI,HALF_PI+PI);
