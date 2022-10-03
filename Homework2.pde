@@ -1,3 +1,5 @@
+//Create by gsc for Homework2
+//2022.10.07
 void setup() 
 { 
   size(800, 600);    
