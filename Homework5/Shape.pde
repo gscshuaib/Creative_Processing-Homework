@@ -52,7 +52,7 @@ boolean lightOn = false;
 
 boolean record;
 
-String[] name = {":: Generative Design Tool 2016.12 ::"};
+String[] name = {":: Shape ::"};
 String timestamp;
 
 void setup() {
