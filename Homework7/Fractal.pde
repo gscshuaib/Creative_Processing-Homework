@@ -29,5 +29,4 @@ void FractalCircle(int x,int y,int size,color rng)
     
   }
   
-  
 }
