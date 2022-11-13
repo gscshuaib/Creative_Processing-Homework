@@ -23,9 +23,6 @@ void setup(){
 }
 void draw(){
   background(0);
-  
-  
-  
   rand = floor(random(6));
   rand2 = floor(random(6));
 if(w>0 &&h>0){  
